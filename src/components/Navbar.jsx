@@ -52,7 +52,7 @@ export default function Navbar({
             Arab Republic of Egypt
           </span>
           <span className="hidden md:inline text-slate-400">|</span>
-          <span className="hidden md:inline text-slate-300">Ministry of Trade & Industry E-Services Gateway</span>
+          <span className="hidden md:inline text-slate-300">Governance and Management Institute - GMI</span>
         </div>
         <div className="flex items-center gap-4 text-slate-300">
           <span className="hidden sm:inline flex items-center gap-1 text-[11px] bg-slate-800/80 px-2 py-0.5 rounded border border-slate-700">
