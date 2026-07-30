@@ -45,16 +45,19 @@ export default function Footer({ onNavigate }) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           
           {/* Col 1: Emblem & Ministry Overview */}
-          <div className="lg:col-span-2 space-y-4">
+ <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-amber-500 text-[#0A192F] font-black text-xs">
-                EG
-              </div>
+            <img 
+                src="/GMI.jpeg" 
+                alt="GMI" 
+                className="w-10 h-10"
+              />
               <div>
-                <h3 className="font-bold text-white text-sm">MINISTRY OF TRADE & INDUSTRY</h3>
-                <p className="text-[11px] text-amber-400 font-medium">Arab Republic of Egypt</p>
+                <h3 className="font-bold text-white text-sm">Governance and Management Institute - GMI</h3>
+                <p className="text-[11px] text-amber-400 font-medium">Egypt</p>
               </div>
             </div>
+
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
               The Governance and Management Institute is a leading institution in the MENA region, specializing in corporate governance, risk management, and compliance. It offers accredited certifications and advisory services to develop leaders and enhance governance practices in accordance with global standards.
