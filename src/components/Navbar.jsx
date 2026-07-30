@@ -49,7 +49,7 @@ export default function Navbar({
         <div className="flex items-center gap-3">
           <span className="inline-flex items-center gap-1.5 font-medium text-amber-400">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            Arab Republic of Egypt
+            Egypt
           </span>
           <span className="hidden md:inline text-slate-400">|</span>
           <span className="hidden md:inline text-slate-300">Governance and Management Institute - GMI</span>
