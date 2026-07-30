@@ -47,7 +47,7 @@ export default function Hero({ onSelectCategory, onQuickAction }) {
             </h1>
             
             <p className="text-slate-300 text-sm sm:text-base max-w-2xl font-light leading-relaxed">
-              The official portal for commercial registration, trademark protection, import & export licensing, 
+              A portal for commercial registration, trademark protection, import & export licensing, 
               industrial approvals, and consumer protection in the Arab Republic of Egypt.
             </p>
 
