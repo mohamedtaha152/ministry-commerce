@@ -45,16 +45,13 @@ export default function Footer({ onNavigate }) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           
           {/* Col 1: Emblem & Ministry Overview */}
- <div className="flex items-center gap-3 cursor-pointer" onClick={() => setActiveTab('services')}>
-            <div className="relative flex items-center justify-center p-1 rounded-xl bg-[#0F2C59] shadow-md border border-amber-500/40">
-              <img
-                src="/GMI.jpeg"
-                alt="GMI"
-                className="w-10 h-10 object-contain"
-              />
-            </div>
+          <div className="lg:col-span-2 space-y-4">
+            <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-amber-500 text-[#0A192F] font-black text-xs">
+                EG
+              </div>
               <div>
-                <h3 className="font-bold text-white text-sm">Governance and Management Institute - GMI</h3>
+                <h3 className="font-bold text-white text-sm">MINISTRY OF TRADE & INDUSTRY</h3>
                 <p className="text-[11px] text-amber-400 font-medium">Arab Republic of Egypt</p>
               </div>
             </div>
