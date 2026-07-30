@@ -33,7 +33,7 @@ export default function Hero({ onSelectCategory, onQuickAction }) {
           </span>
           <span className="text-amber-300 font-semibold uppercase tracking-wider text-[11px]">National Update:</span>
           <span className="text-slate-200 truncate">
-            New 24-Hour Instant Commercial Register & Automated Tax Sync active across all 27 Egyptian Governorates.
+            New 24-Hour Instant Commercial Register 
           </span>
         </div>
 
