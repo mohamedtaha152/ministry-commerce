@@ -82,7 +82,7 @@ export default function CommerceBot() {
                 <h3 className="text-xs font-bold text-white flex items-center gap-1">
                   CommerceBot EG <Sparkles className="w-3 h-3 text-amber-400" />
                 </h3>
-                <span className="text-[10px] text-emerald-400 font-medium">Online • Ministry AI Guide</span>
+                <span className="text-[10px] text-emerald-400 font-medium">Online • AI Guide</span>
               </div>
             </div>
             <button 
