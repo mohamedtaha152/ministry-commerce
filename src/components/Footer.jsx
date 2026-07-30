@@ -20,7 +20,7 @@ export default function Footer({ onNavigate }) {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
           <div className="flex items-center gap-3">
             <span className="p-2 bg-amber-500 text-[#0A192F] font-black rounded-lg text-sm">
-              19033
+             +201155556644
             </span>
             <div>
               <span className="font-bold text-white block">+201155556644</span>
@@ -30,11 +30,11 @@ export default function Footer({ onNavigate }) {
 
           <div className="flex items-center gap-4 text-slate-300 font-medium">
             <span className="flex items-center gap-1">
-              <Lock className="w-3.5 h-3.5 text-amber-400" /> Ministry Data Protection Certified
+              <Lock className="w-3.5 h-3.5 text-amber-400" /> Data Protection Certified
             </span>
             <span className="hidden md:inline">|</span>
             <span className="flex items-center gap-1 text-emerald-400">
-              <CheckCircle2 className="w-3.5 h-3.5" /> E-Government Gateway v4.2
+              <CheckCircle2 className="w-3.5 h-3.5" /> GMI Gateway v1.0
             </span>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function Footer({ onNavigate }) {
 
             <div className="pt-2 text-xs space-y-1 text-slate-400 font-mono">
               <div>HQ Address: 5 ش الفضل، طلعت حرب - سيتي سنتر- مبني القنصلية الاداري, Cairo, EG</div>
-              <div>Email: support@mti.gov.eg</div>
+              <div>Email: support@gmi.eg</div>
             </div>
           </div>
 
