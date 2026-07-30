@@ -16,7 +16,7 @@ export default function CommerceBot() {
   const [messages, setMessages] = useState([
     {
       sender: 'bot',
-      text: 'Hello! I am CommerceBot EG, your AI virtual assistant for the Egyptian Ministry of Trade & Industry. How can I assist your business today?'
+      text: 'Hello! I am CommerceBot EG, your AI virtual assistant for the GMI. How can I assist your business today?'
     }
   ]);
   const [input, setInput] = useState('');
