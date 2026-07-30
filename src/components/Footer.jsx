@@ -23,7 +23,7 @@ export default function Footer({ onNavigate }) {
               19033
             </span>
             <div>
-              <span className="font-bold text-white block">Official Ministry Service Hotline (19033)</span>
+              <span className="font-bold text-white block">+201155556644</span>
               <span className="text-slate-400 text-[11px]">Toll-Free Consumer Protection & Commercial Guidance • 24/7 Support</span>
             </div>
           </div>
@@ -51,18 +51,17 @@ export default function Footer({ onNavigate }) {
                 EG
               </div>
               <div>
-                <h3 className="font-bold text-white text-sm">MINISTRY OF TRADE & INDUSTRY</h3>
+                <h3 className="font-bold text-white text-sm">Governance and Management Institute - GMI</h3>
                 <p className="text-[11px] text-amber-400 font-medium">Arab Republic of Egypt</p>
               </div>
             </div>
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
-              The official portal for commercial registration, trademark protection, export-import control, 
-              and industrial licensing in Egypt under Ministry decree regulations.
+              The Governance and Management Institute is a leading institution in the MENA region, specializing in corporate governance, risk management, and compliance. It offers accredited certifications and advisory services to develop leaders and enhance governance practices in accordance with global standards.
             </p>
 
             <div className="pt-2 text-xs space-y-1 text-slate-400 font-mono">
-              <div>HQ Address: Ramses Square, Ministry Complex, Cairo, Egypt</div>
+              <div>HQ Address: 5 ش الفضل، طلعت حرب - سيتي سنتر- مبني القنصلية الاداري, Cairo, EG</div>
               <div>Email: support@mti.gov.eg</div>
             </div>
           </div>
@@ -159,7 +158,7 @@ export default function Footer({ onNavigate }) {
         {/* Bottom Legal Bar */}
         <div className="border-t border-slate-800 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <div>
-            © {new Date().getFullYear()} Ministry of Trade & Industry - Arab Republic of Egypt. All rights reserved.
+            © {new Date().getFullYear()} Governance and Management Institute - GMI. All rights reserved.
           </div>
           <div className="flex gap-4">
             <span className="hover:underline cursor-pointer">Privacy Policy</span>
