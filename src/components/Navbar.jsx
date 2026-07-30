@@ -56,7 +56,7 @@ export default function Navbar({
         </div>
         <div className="flex items-center gap-4 text-slate-300">
           <span className="hidden sm:inline flex items-center gap-1 text-[11px] bg-slate-800/80 px-2 py-0.5 rounded border border-slate-700">
-            <Shield className="w-3 h-3 text-emerald-400" /> Official Secure Gov Portal (256-bit SSL)
+            <Shield className="w-3 h-3 text-emerald-400" /> Official Secure GMI Portal 
           </span>
           <button 
             onClick={() => onOpenVerifier()}
@@ -72,16 +72,13 @@ export default function Navbar({
         <div className="flex items-center justify-between h-20">
           
           {/* Official Egyptian Logo & Branding */}
-          <div className="flex items-center gap-3 cursor-pointer" onClick={() => setActiveTab('services')}>
-            <div className="relative flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-[#0F2C59] to-[#0A192F] text-amber-400 shadow-md border border-amber-500/40">
-              {/* Eagle emblem representation */}
-              <div className="text-center font-bold">
-                <span className="block text-xs uppercase tracking-widest text-amber-400 font-serif">EG</span>
-                <span className="block text-[10px] text-slate-200 font-mono -mt-1">GOV</span>
-              </div>
-              <div className="absolute -bottom-1 -right-1 bg-amber-500 text-[#0A192F] rounded-full p-0.5 text-[8px] font-extrabold">
-                ★
-              </div>
+        <div className="flex items-center gap-3 cursor-pointer" onClick={() => setActiveTab('services')}>
+            <div className="relative flex items-center justify-center p-1 rounded-xl bg-[#0F2C59] shadow-md border border-amber-500/40">
+              <img
+                src="/GMI.jpeg"
+                alt="Egyptian Coat of Arms Seal"
+                className="w-10 h-10 object-contain"
+              />
             </div>
             <div>
               <div className="flex items-center gap-2">
