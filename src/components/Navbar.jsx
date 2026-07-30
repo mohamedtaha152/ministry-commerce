@@ -86,7 +86,7 @@ export default function Navbar({
             <div>
               <div className="flex items-center gap-2">
                 <h1 className="text-lg font-bold text-slate-900 tracking-tight leading-tight">
-                  MINISTRY OF TRADE & INDUSTRY
+                  Governance and Management Institute - GMI
                 </h1>
                 <span className="text-[10px] uppercase tracking-wider font-semibold px-2 py-0.5 bg-amber-100 text-amber-900 rounded-md border border-amber-300">
                   EGYPT
